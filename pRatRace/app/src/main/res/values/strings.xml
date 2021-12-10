@@ -10,4 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="rat_image">Rat image</string>
+    <string name="Title">Rat Race</string>
+    <string name="tag">Gotta get in the race!</string>
 </resources>
