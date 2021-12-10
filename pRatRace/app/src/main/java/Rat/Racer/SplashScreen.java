@@ -1,4 +1,4 @@
-package Rat.Racer.ui;
+package Rat.Racer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,9 +11,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import Rat.Racer.MainActivity;
-import Rat.Racer.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {

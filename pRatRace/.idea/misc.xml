@@ -22,8 +22,11 @@
         <entry key="..\:/Users/ejmde/Desktop/Projects/RatRace/pRatRace/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.12273550724637682" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10520833333333333" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.21614583333333334" />
       </map>
     </option>
   </component>
