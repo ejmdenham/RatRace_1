@@ -15,7 +15,7 @@ import android.widget.TextView;
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN = 4500;
+    private static int SPLASH_SCREEN = 5500;
 
     //Variables
     Animation topAnim, bottomAnim;
