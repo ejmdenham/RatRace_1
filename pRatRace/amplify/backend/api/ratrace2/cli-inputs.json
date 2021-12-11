@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "ratrace2",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/elishadenham/Documents/GitHub/RatRace_1/pRatRace/amplify/backend/api/ratrace2/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
