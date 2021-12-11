@@ -64,14 +64,12 @@ public class EmailConfirmation extends AppCompatActivity {
                 AppUser.builder().id(userId).name(username).build(),
                 this::onSavedSuccess,
                 this::onError
-
         );
     }
 
     private <T extends Model> void onSavedSuccess(DataStoreItemChange<T> tDataStoreItemChange) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        finish();
     }
 
     private void onError(DataStoreException e) {
@@ -89,6 +87,8 @@ public class EmailConfirmation extends AppCompatActivity {
                     .show();
         });
     }
+
+    ///////////////////////////
 
     private String getEmail() {
         return getIntent().getStringExtra("email");
