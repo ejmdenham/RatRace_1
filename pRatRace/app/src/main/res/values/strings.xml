@@ -13,4 +13,23 @@
     <string name="rat_image">Rat image</string>
     <string name="Title">Rat Race</string>
     <string name="tag">Gotta get in the race!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="join">JOIN</string>
+    <string name="joinRegister">Join Rat Race</string>
+    <string name="passwordHintRegister">Password</string>
+    <string name="resgisterButton">Join</string>
+    <string name="emailHintRegister">Email</string>
+    <string name="nameHintRegister">Name</string>
+    <string name="confirmation_code">Confirmation Code</string>
 </resources>
