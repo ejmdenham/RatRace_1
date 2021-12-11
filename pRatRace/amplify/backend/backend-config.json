@@ -28,7 +28,7 @@
     }
   },
   "api": {
-    "ratrace2": {
+    "RatRace2": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -36,10 +36,21 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
             }
           },
-          "additionalAuthenticationProviders": []
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            },
+            {
+              "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+              "userPoolConfig": {
+                "userPoolId": "authratrace201732cd1"
+              }
+            }
+          ]
         }
       }
     }

@@ -14,6 +14,11 @@
     "categories": {
       "auth": {
         "ratrace201732cd1": {}
+      },
+      "function": {
+        "ratrace201732cd1PostConfirmation": {
+          "GROUP": "AppUser"
+        }
       }
     }
   }
