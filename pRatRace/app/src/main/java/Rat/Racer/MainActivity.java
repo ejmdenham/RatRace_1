@@ -2,9 +2,11 @@ package Rat.Racer;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -36,9 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (currentUser == null){
             //Got to the login screen
-            intent = new Intent(getApplicationContext(), LoginScreen.class);
+            intent = new Intent(getApplicationContext(), SplashScreen.class);
             startActivity(intent);
-            finish();
         }
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -47,8 +48,18 @@ public class MainActivity extends AppCompatActivity {
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+
+                Toast.makeText(getApplicationContext(),"Logging Out", Toast.LENGTH_LONG).show();
+
+                Amplify.Auth.signOut(
+                        () -> Log.i("AuthQuickstart", "Signed out successfully"),
+                        error -> Log.e("AuthQuickstart", error.toString())
+                );
+
+                Intent intent = new Intent(getApplicationContext(),LoginScreen.class);
+                startActivity(intent);
+                finish();
             }
         });
 

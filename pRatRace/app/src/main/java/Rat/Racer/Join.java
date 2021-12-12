@@ -62,5 +62,6 @@ public class Join extends AppCompatActivity {
         intent.putExtra("username", txtUsername.getText().toString());
 
         startActivity(intent);
+        finish();
     }
 }

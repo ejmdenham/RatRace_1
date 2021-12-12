@@ -47,7 +47,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 //Going from splash to Main. the next screen will likely be the login
                 //TODO: implement login screen
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this, LoginScreen.class);
                 startActivity(intent);
                 finish();
             }
