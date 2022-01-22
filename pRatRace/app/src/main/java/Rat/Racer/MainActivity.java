@@ -24,6 +24,9 @@ import Rat.Racer.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+    //TODO: add location implementation from here: https://velmurugan-murugesan.medium.com/how-to-get-current-latitude-and-longitude-in-android-example-35437a51052a
+    //Send location to backend and TODO: learn how to show markers for other users
+
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
