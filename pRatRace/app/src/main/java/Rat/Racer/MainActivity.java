@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO: add location implementation from here: https://velmurugan-murugesan.medium.com/how-to-get-current-latitude-and-longitude-in-android-example-35437a51052a
     //Send location to backend and TODO: learn how to show markers for other users
+    //TODO: Consider the following resources
+    //https://www.javatpoint.com/android-google-map-displaying-current-location
+    //https://developers.google.com/maps/documentation/android-sdk/map-with-marker
+    //http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
