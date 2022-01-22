@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+    <!-- TODO Change icons in activity_main_drawer to relevant icons-->
+    <!-- TODO change id and @string to the appropriate names-->
+
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
@@ -17,4 +20,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
     </group>
+
+    <!-- TODO find a way to add  logout button -->
+
 </menu>
