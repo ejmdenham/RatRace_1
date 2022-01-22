@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "ratrace201732cd1_identitypool_01732cd1",
+    "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "ratrac01732cd1",
-    "userPoolName": "ratrace201732cd1_userpool_01732cd1",
+    "resourceNameTruncated": "ratracd99b82cf",
+    "userPoolName": "RatracePrototype",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -14,34 +14,36 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Your verification code",
-    "emailVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Forgot password code: {####}",
+    "emailVerificationMessage": "Forgot password code: {####}",
     "defaultPasswordPolicy": false,
-    "passwordPolicyMinLength": 8,
-    "passwordPolicyCharacters": [],
+    "passwordPolicyMinLength": 6,
+    "passwordPolicyCharacters": [
+      "Requires Numbers"
+    ],
     "requiredAttributes": [
       "email"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
-    "userpoolClientWriteAttributes": [
-      "email"
-    ],
-    "userpoolClientReadAttributes": [
-      "email"
-    ],
-    "userpoolClientLambdaRole": "ratrac01732cd1_userpoolclient_lambda_role",
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "Ratracd99b82cf_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "01732cd1",
-    "resourceName": "ratrace201732cd1",
+    "sharedId": "d99b82cf",
+    "resourceName": "RatracePrototype",
     "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
+    "serviceName": "Cognito",
     "usernameAttributes": [
       "email"
     ],
+    "useDefault": "manual",
+    "userPoolGroups": false,
     "userPoolGroupList": [],
-    "serviceName": "Cognito",
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }

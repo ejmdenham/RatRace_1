@@ -2,7 +2,7 @@
   "providers": [
     "awscloudformation"
   ],
-  "projectName": "RatRace2",
+  "projectName": "RatracePrototype",
   "version": "3.1",
   "frontend": "android",
   "android": {
