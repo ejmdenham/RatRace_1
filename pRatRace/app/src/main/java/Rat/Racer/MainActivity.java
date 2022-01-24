@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
     //https://www.javatpoint.com/android-google-map-displaying-current-location
     //https://developers.google.com/maps/documentation/android-sdk/map-with-marker
     //http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/
+    //https://developer.tomtom.com/?utm_medium=referral&utm_source=quora&utm_campaign=ent_apis_quora_organic
+    //https://rapidapi.com/blog/top-map-apis/
+    //https://www.mapbox.com/
+    //https://rapidapi.com/blog/top-map-apis/
+    //https://developer.tomtom.com/
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
