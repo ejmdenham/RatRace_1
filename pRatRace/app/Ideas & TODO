@@ -5,19 +5,23 @@ Map showing markers of player(s)
         °°°A schema for quests
 Teams
     A way to form temp. teams for quests
-    Chat option for teams
+    Chat option for teams/squads
+        squads can exchange or consolidate coins for questing
 
 -The should be a quests menu with a list of available quests
     Each quest should have the following info (eventually) (-quick view, +expanded view)
         -name
         -when the quest will begin in mm/dd/yy (assuming the min # of teams sign up)
         -difficulty of the quest
+        +the creator or creative lead
         -min and max number of teams
         -min and max team size
+        +prize
         +a short description of the quest
         +a map showing the coverage
 
 -Quest types
+Participation in quests will either be free or cost tickets which can be bought with coins
     Headhunter - [Several] Small teams or single players (1 - 3)
         The object of the game is to collect bounties from other players.
         You collect their bounties by coming within a certain (small) distance to them.
@@ -31,10 +35,81 @@ Teams
         Teams can always see their predator (who is hunting them)  as well as their mark.
         In certain circumstances they could have no or multiple marks. (eg. when performing poorly)
         In certain circumstances they could have no or multiple predators. (eg. when performing well)
+        Once a team member gets a kill there will be a count down. In this time other teammates have a chance to
+        kill even more members from the other team before they get a new mark.
+        The more kills a team gets w/o being killed the more predators will be assigned to them.
+        The more a team is killed without getting kills the more marks they will have.
+        kills give +points, deaths give -points
+        The team with the most points wins.
+        =HH can be its own quest or part of a quest.
+    Treasure Hunt - 1 to 10 player teams, with as many teams participating as they want when they want
+        or with a designated start day and number of teams.
+        The object of the game is to unlock clue after clue which will eventually lead to the final treasure
+        All treasure hunts go on indefinitely or until a certain long period of time goes by.
+        They are generally very difficult/challenging but with big rewards.
+        TH that have drop-in rules will show the progress of the player that is closest to the treasure
+            or the competition time of the first place team and players will have to decide themselves if its worth it to join
+            in order to possibly surpass 1st place or get a secondary or tertiary prize.
+        There will be a physical chest with a QR code inside that can be scanned and upon finding the chest
+            awards will be shared.
+        In TH any team that finds the chest will get something with 1st, 2nd, 3rd, and 4th getting what could be
+            considered a rea prize (1st being the best 4th being the simplest) and everyone else getting minimal XP (or something)
+        Teams can take as long as they need stopping, resting, and restarting as they see fit.
+        Standalone game
+    Bootleg - several small teams of 2 to 5, participating on a given day from a given location
+        Players must get to checkpoints before a set time, the last person to get to a checkpoint and anyone who doesnt make
+        it to the checkpoint in time are eliminated.
+        This goes on until only one team is left standing
+        =Standalone game
+    Race - several small teams of 2 to 5, participating on a given day from a given location
+        Players have a series of checkpoints they have to get to. For each checkpoint a certain amount of points are
+        awarded based on the order in which people reach the checkpoint.
+        By the end of the last leg the team with the most points wins.
+        2nd and 3rd also receive a prize of some kind.
+        =When played as part of another quest only the team(s) in last are eliminated
+    City Escape - several teams of 1 - 5
+
+        =Can be a standalone game or played in a bigger quest or pair with HH
+
+
 
 Things to implement eventually:
-    Skill tree/nodes - skills that players can unlock as they level up as well as a
-        unique skill.
+    Skill tree/nodes
+        - skills that players can unlock as they level up as well as a unique skill.
 
-        Unique Skill - when players open the skill tree for the first time they'll be asked
-            a series of questions
+        Unique Skill
+        - when players open the skill tree for the first time they'll be asked a series of questions eg.:
+            "Friendship is more important than wealth." (Agree Disagree)
+            After answering these question they will receive a unique skill based on their
+            answers. Each answer increases the chances of getting a specific skill
+            (while skipping them will result in a random basic skill.)
+
+            Examples of unique skills:
+                Jeckel and Hide - One helpful skill during the day and a different tricky or dangerous skill at night
+                Khajit - Has an option to sell skill points to players in chat for coins and/or cash (10% of which goes to us)
+                Holy Angel - If the team HA is on would be eliminated they are spared once per quest. (all prizes are cut in half)
+                Laughing Angel -
+                Vengeful Spirit - If you are eliminated in the last round of play your team takes 10 percent of victory pot.
+                Hacker - Active, Other players screens become fuzzy/blurry for a time
+                Hologram - Active, spawn several copies of your marker on the world map
+
+
+        Skill nodes
+        - As players level up they will get skill points at every 5th level that they can use to activate skill nodes
+            which are basic abilities that make the player more helpful/formidable/tricky/... and can be active or passive
+            The highest level one can obtain is level 50 then they must "prestige" at which case they
+            will be able to obtain a higher level.
+
+            0 Prestige is where everyone starts. The skill nodes are only unlocked upon reaching level 5
+
+            0 Prestige: Starting skill points(SSP) 0, Max Level(lvl) 50, Max Skill points(MSP) 10 + 5 max buyable points
+            1 Prestige: SSP 5, lvl 75, 20 MSP + 10 MBP
+            2 Prestige: SSP 10, lvl 100, 30 MSP + 15 MBP
+            3 Prestige: SSP 15, lvl 125, 40 MSP + 20 MBP
+            Final Prestige: SSP 20, lvl 125, 45 MSP + 25 MBP
+            50% of skill points remain when you "prestige", but bought points are never lost
+
+            examples of skills?
+
+
+
