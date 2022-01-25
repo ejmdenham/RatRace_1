@@ -1,0 +1,40 @@
+List of things need to test:
+
+Map showing markers of player(s)
+    Backend gateway to add races/quests
+        °°°A schema for quests
+Teams
+    A way to form temp. teams for quests
+    Chat option for teams
+
+-The should be a quests menu with a list of available quests
+    Each quest should have the following info (eventually) (-quick view, +expanded view)
+        -name
+        -when the quest will begin in mm/dd/yy (assuming the min # of teams sign up)
+        -difficulty of the quest
+        -min and max number of teams
+        -min and max team size
+        +a short description of the quest
+        +a map showing the coverage
+
+-Quest types
+    Headhunter - [Several] Small teams or single players (1 - 3)
+        The object of the game is to collect bounties from other players.
+        You collect their bounties by coming within a certain (small) distance to them.
+        Players will know their mark and know which team is marking them.
+        As the game progresses "power-ups" rain down over the area which will give
+            a permanent bonus to the person, team, or teams that are standing in the area
+            after an activation time.
+            (the more players from the same team the stronger the power-up becomes)
+            It will also be possible for more than 1 team to get a bonus from a power
+            zone if they show up around the same time.
+        Teams can always see their predator (who is hunting them)  as well as their mark.
+        In certain circumstances they could have no or multiple marks. (eg. when performing poorly)
+        In certain circumstances they could have no or multiple predators. (eg. when performing well)
+
+Things to implement eventually:
+    Skill tree/nodes - skills that players can unlock as they level up as well as a
+        unique skill.
+
+        Unique Skill - when players open the skill tree for the first time they'll be asked
+            a series of questions
