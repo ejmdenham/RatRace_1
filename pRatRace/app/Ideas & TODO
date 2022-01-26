@@ -111,5 +111,61 @@ Things to implement eventually:
 
             examples of skills?
 
+    Guilds - guilds allow for bigger groups of players that work together for the good of the guild
+    They have different leadership requirements bases on the Guild tier/class.
+    Guilds do not pay as individuals but as a guild, and get greater discounts depending on their class
+    from the usual player rate.
+    Guilds are recommended to go to a sponsorship model.
+        Tiers/Classes - to advance the following member amount and leadership requirements must be met
+            4th Class (Stone) Guild
+                # of members: 7 - 125
+                Leadership: 1 Guild Master
+                            0-1 Admin
+                            0-1 Guild Captain
+                Discount:
+            3rd Class (Bronze) Guild
+                # of members: 120 - 250
+                Leadership: 1 Guild Master
+                            1 Admin
+                            1-2 Guild Captain
+                            1-4 Vice Captains
+                Discount:
+            2nd Class (Iron) Guild
+                # of members: 240 - 500
+                Leadership: 1 Guild Master
+                            2 Admin
+                            2-5 Guild Captain
+                            2-10 Vice Captains
+                Discount:
+            1st Class (Golden) Guild
+                # of members: 450+
+                Leadership: at least 1 Guild Council/Board Member /150 members (up to five)
+                            1 Admin /250 members up to 2
+                            2-5 Guild Captain
+                            2-10 Vice Captains
+                Discount:
+
+        Sponsors - Guilds can find their own sponsors or WE can sponsor them for a term of 1 - 2 years
+        Sponsors can (contractually) require that their guild give them a certain percentage of prize money
+        or whatever they think is necessary.
+        Supporter Pools - Guilds can establish "pools" asking for people (friends, family, fans) to join
+        These supporters can agree to pay a certain amount per month for a stake/share in awards which could mean rewards over
+        a certain amount or any and all rewards received.
+        Stake holders are paid every second quarter and receive a percentage of the portion paid to stake holders.
+        (Eg. A guild, Vox Raptor, decides that 50% of all award earnings will go back to stake-holders. At the end of the second quarter
+        the guild has earned 100,000 in rewards. Sally who supported the guild bc her son is a part it, gave the guild
+        $1200 over the course of 6 months, which was 1% of the total income of the guild from their Supporter pool. The money the guild owes stake-holders
+        comes to 50,000 and therefore sally is owed 1 percent of that, 5,000 dollars.)
+        Guilds can have both Sponsors and Supporters. But the percentages owed to each group must add up to less
+        than or equal to 100%.
+        (Eg. A guild, Grass Raiment, has a sponsor that receives 40% of all awards and a supporter pool that receives
+        35%. At the end of the 2nd Quarter they have earned $1,000,000 in awards. They give 400k to their sponsor,
+        350k to their support pool (divided up appropriately) and they keep 250k for their guild)
+        Guilds can have multiple sponsors but only 1 Support Pool
+        Support Pools Can be managed by US, and WE can take a small percentage of each transaction.
+
+
+
+
 
 
