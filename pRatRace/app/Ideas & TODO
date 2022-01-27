@@ -59,17 +59,22 @@ Participation in quests will either be free or cost tickets which can be bought 
     Bootleg - several small teams of 2 to 5, participating on a given day from a given location
         Players must get to checkpoints before a set time, the last person to get to a checkpoint and anyone who doesnt make
         it to the checkpoint in time are eliminated.
+        The next checkpoint wont be revealed until all teams arrive and at least after a certain time
         This goes on until only one team is left standing
-        =Standalone game
+        =Standalone game, but at checkpoint cites other games can take place
     Race - several small teams of 2 to 5, participating on a given day from a given location
         Players have a series of checkpoints they have to get to. For each checkpoint a certain amount of points are
         awarded based on the order in which people reach the checkpoint.
+        When they reach a checkpoint a certain amount of time will pass before they get the next
         By the end of the last leg the team with the most points wins.
         2nd and 3rd also receive a prize of some kind.
-        =When played as part of another quest only the team(s) in last are eliminated
+        =When played with eliminations only the team(s) in last are eliminated
     City Escape - several teams of 1 - 5
 
         =Can be a standalone game or played in a bigger quest or pair with HH
+    Hide and Seek -
+    Explorer -
+        Visit landmarks, monuments, cities for points
 
 
 
@@ -107,15 +112,19 @@ Things to implement eventually:
             2 Prestige: SSP 10, lvl 100, 30 MSP + 15 MBP
             3 Prestige: SSP 15, lvl 125, 40 MSP + 20 MBP
             Final Prestige: SSP 20, lvl 125, 45 MSP + 25 MBP
-            50% of skill points remain when you "prestige", but bought points are never lost
+            50% of MSP remain when you "prestige", but bought points are never lost
 
             examples of skills?
+
+    Subscriptions
+
 
     Guilds - guilds allow for bigger groups of players that work together for the good of the guild
     They have different leadership requirements bases on the Guild tier/class.
     Guilds do not pay as individuals but as a guild, and get greater discounts depending on their class
     from the usual player rate.
     Guilds are recommended to go to a sponsorship model.
+
         Tiers/Classes - to advance the following member amount and leadership requirements must be met
             4th Class (Stone) Guild
                 # of members: 7 - 125
