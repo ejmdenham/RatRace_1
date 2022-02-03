@@ -32,11 +32,11 @@ Participation in quests will either be free or cost tickets which can be bought 
             (the more players from the same team the stronger the power-up becomes)
             It will also be possible for more than 1 team to get a bonus from a power
             zone if they show up around the same time.
-        Teams can always see their predator (who is hunting them)  as well as their mark.
-        In certain circumstances they could have no or multiple marks. (eg. when performing poorly)
-        In certain circumstances they could have no or multiple predators. (eg. when performing well)
+        Teams can't always see their predator (who is hunting them) but they can always see their mark.
+        In certain circumstances they could have no or multiple marks (eg. when performing poorly)
+        In certain circumstances they could have no or multiple predators (eg. when performing well)
         Once a team member gets a kill there will be a count down. In this time other teammates have a chance to
-        kill even more members from the other team before they get a new mark.
+        kill even more members from the other team before they get a new mark from a different team.
         The more kills a team gets w/o being killed the more predators will be assigned to them.
         The more a team is killed without getting kills the more marks they will have.
         kills give +points, deaths give -points

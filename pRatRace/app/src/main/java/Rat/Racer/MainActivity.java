@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
     //https://rapidapi.com/blog/top-map-apis/
     //https://developer.tomtom.com/
 
+    //for help wth lists (friends, quest, squad chats) https://www.geeksforgeeks.org/how-to-build-a-todo-android-application-with-aws-dynamodb-as-database/
+
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
